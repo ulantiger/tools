@@ -1,0 +1,49 @@
+.main{
+  width: fit-content(1210px);
+  min-width: 1210px;
+  height: 100%;
+  margin: 0 auto;
+  padding: 15px;
+  box-sizing: border-box;
+  font-size: 18px;
+  justify-content: flex-start;
+  display: flex;
+
+}
+
+.figureBox, .toolBox{
+  display: flex;
+  flex-direction: column;
+  justify-content: center;
+  // align-items: center;
+  margin: 0;
+  border-radius: 20px;
+}
+
+::-webkit-scrollbar {
+  width: 0px;
+}
+  
+
+// .flat {
+//     box-shadow:
+//     12px 12px 16px 0 rgba(0, 0, 0, 0.8),
+//     -5px -5px 16px 0 rgba(255, 255, 255, 0.1);
+// }
+
+// .inset {
+//     box-shadow:
+//     inset 12px 12px 16px 0 rgba(0, 0, 0, 0.8),
+//     inset -5px -5px 16px 0 rgba(255, 255, 255, 0.1);
+// }
+
+
+.convex {
+    background: linear-gradient(-45deg, rgba(0,0,0,0.22), rgba(255,255,255,0.25));
+}
+
+.concave {
+    background: linear-gradient(135deg, rgba(0,0,0,0.22), rgba(255,255,255,0.25));
+}
+
+

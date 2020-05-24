@@ -1,0 +1,59 @@
+.elem{
+    width: 100%;
+    // margin-bottom: 20px;
+
+    p{
+        padding: 10px 0px;
+        margin: 5px 0;
+    }
+
+    span{
+        margin: 0 2px;
+        padding: 0;
+        display: inline-block;
+    }
+    .params{
+        padding: 0 10px;
+        color: #efd761;
+        font-style: italic;
+    }
+
+}
+
+.radiobtn input[type='radio']:checked +label{
+    color: red;
+    background: greenyellow;
+}
+
+.normalText{
+    width: 100%;
+    display: flex;
+    justify-content: space-between;
+    align-items: center;
+    
+    input[type='checkbox']{
+        width: 20px;
+        height: 20px;
+        margin: 0 10px;
+    }
+    input[type='text']{
+        color: black;
+        font-size: 18px;
+        background: white;
+        width: 130px;
+        height: 30px;
+        margin: 0 10px;
+        border-radius: 10px;
+    }
+}
+
+.cons{
+    display: flex;
+    flex-direction: column;
+    justify-content: space-between;
+}
+
+.conl1{
+    display: flex;
+}
+

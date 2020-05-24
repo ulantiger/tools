@@ -1,0 +1,27 @@
+.content{
+    background-color: #02093b;
+    color: #0CFF8e;
+    border-radius: 6px;
+    padding: 5px 0;
+    position: absolute;
+    right: 30px;
+    top: 20px;
+    z-index: 10;
+    display: flex;
+    flex-wrap: wrap;
+    align-items: center;
+
+    .line {
+        display: flex;
+        margin: 5px 0;
+        justify-content: flex-start;
+        align-items: center;
+
+        p {
+            padding: 0;
+            margin: 10px;
+        }
+    }
+
+}
+
